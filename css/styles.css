@@ -216,7 +216,7 @@ nav .menu-list:not(:last-child) {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: var(--white);
-   
+    max-width: 496px;
 
 }
 
@@ -224,6 +224,10 @@ nav .menu-list:not(:last-child) {
     padding: 16px 32px;
     border: none;
     border-radius: 4px;
+    min-width: 169px ;
+    display: block;
+    height: 56px;
+    margin: auto;
     
     background-color: var(--iris); 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -234,6 +238,7 @@ nav .menu-list:not(:last-child) {
     letter-spacing: 0.04em ;
     color: var(--white);
     cursor: pointer;
+    
 
 }
 .hero-button:hover,
