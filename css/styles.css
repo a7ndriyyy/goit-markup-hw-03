@@ -199,8 +199,8 @@ nav .menu-list:not(:last-child) {
 }
 
 .hero-header{
-    margin-left: auto;
-    margin-right: auto;
+     margin-left: auto; 
+     margin-right: auto; 
     margin-bottom: 48px;
     width: 496px;
     font-weight: 700;
@@ -455,7 +455,6 @@ nav .menu-list:not(:last-child) {
     color: var(--cloud);
 }
 .logo-item-studio{
-    margin-bottom: 16px;
     display: inline-block;
     font-family: "Raleway",sans-serif;
     letter-spacing: 0.03em;
