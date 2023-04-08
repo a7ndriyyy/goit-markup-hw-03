@@ -147,12 +147,6 @@ nav .menu-list:not(:last-child) {
     display: flex;
     gap: 40px;
   }
-.menu-list{
-    margin-right: 40px;
-}
-.menu-list:not(:last-child){
-    margin-right: 0;
-}
 
 .email{
     color:var(--slate);
