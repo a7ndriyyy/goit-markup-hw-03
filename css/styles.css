@@ -45,8 +45,7 @@ ul {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    align-items: center;
+   
  
 }
 /* section  */
@@ -77,7 +76,7 @@ img{
 /* nav  */
 .nav-link{
     display: block;
-    padding: 24px 0;
+    padding: 21 0;
   
     font-weight: 500;
     font-size: 16px;
@@ -157,7 +156,7 @@ nav .menu-list:not(:last-child) {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17 ;
-    margin-right: 76px;
+   
    
 }
 .logo-item{
@@ -168,7 +167,7 @@ nav .menu-list:not(:last-child) {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    margin-right: 76px;
+    
     
    
 }
