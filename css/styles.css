@@ -144,6 +144,13 @@ nav .menu-list:not(:last-child) {
     gap: 40px;
 }
 
+.menu-list{
+    margin-right: 40px;
+}
+.menu-list:not(:last-child){
+    margin-right: 0;
+}
+
 .email{
     color:var(--slate);
     font-weight:400 ;
@@ -383,6 +390,7 @@ display: flex;
     width: calc((100% - 2 * 24px) / 3);
     margin-right: 24px;
     margin-bottom: 48px;
+    
 }
 .item-portfolio:nth-child(3n) {
     margin-right: 0;
