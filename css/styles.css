@@ -122,6 +122,7 @@ nav .menu-list:not(:last-child) {
 
   .do-this{
     display: flex;
+    gap: 24px; 
   }
   .cool-teams{
     display: flex;
@@ -253,6 +254,9 @@ nav .menu-list:not(:last-child) {
 
 
 /* what we are doing */
+.item-doing{
+    margin-right: 24px;
+}
 .item-doing + .item-doing {
     margin-left: 24px;
   }
@@ -437,11 +441,13 @@ nav .menu-list:not(:last-child) {
 }
 
 .section-team{
+    padding-top: 120px; 
     padding-bottom: 120px;
 }
 
 .div-team{
-    padding: 32px 0;
+    padding: 32px 16px;
+    border-radius: 0px 0px 4px 4px; 
 }
 /* footer */
 .footer{
