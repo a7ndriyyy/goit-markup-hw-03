@@ -59,7 +59,7 @@ ul {
 }
 
 .section-do{
-    padding-bottom: 120px;
+    padding-bottom: 120px; 
 }
 
 .section-portfolio{
@@ -112,7 +112,7 @@ nav .menu-list:not(:last-child) {
  }
  /* item-info section strategy */
  .item-info{
-    width: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
     margin-right: 24px;
  }
 
@@ -141,6 +141,7 @@ nav .menu-list:not(:last-child) {
 }
 .contact{
     display: flex;
+    gap: 40px;
 }
 
 .email{
@@ -193,7 +194,7 @@ nav .menu-list:not(:last-child) {
     margin-bottom: 16px;
 }
 .menu{
-    display: flex;
+display: flex;
   margin-left: 76px;
   gap: 40px;
 }
