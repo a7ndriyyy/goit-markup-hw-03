@@ -367,6 +367,8 @@ display: flex;
 .portfolio-ul{
     display: flex;
     flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 .portfolio-div{
     padding-top: 32px;
