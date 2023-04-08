@@ -45,8 +45,13 @@ ul {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
-   
- 
+   /* outline:2px solid red; */
+   outline-offset: -2px;
+}
+
+.div-container{
+    display: flex;
+    align-items: center;
 }
 /* section  */
 .section{
@@ -156,7 +161,7 @@ nav .menu-list:not(:last-child) {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17 ;
-   
+    margin-right: 76px
    
 }
 .logo-item{
@@ -167,7 +172,7 @@ nav .menu-list:not(:last-child) {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    
+    margin-right: 76px
     
    
 }
